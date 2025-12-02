@@ -66,19 +66,5 @@ El proyecto usa `pytest` pa' cachar si la lógica de los cálculos está buena.
     ```bash
     pytest
     ```
-
-### [README.md](file:///c%3A/bitcoinmoon/README.md)
-Instrucciones rápidas para inicializar y subir el repo a GitHub.
-
-Rápido:
-1. Inicializa repo local:
-   git init
-   git add .
-   git commit -m "Initial commit"
-2. Crea un repo vacío en GitHub y añade el remote:
-   git remote add origin https://github.com/<TU_USUARIO>/<TU_REPO>.git
-   git branch -M main
-   git push -u origin main
-
 CI:
 - Se incluye un workflow de GitHub Actions en .github/workflows/python-app.yml que ejecuta flake8.
